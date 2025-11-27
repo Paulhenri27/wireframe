@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop Gallery Wireframe - Book Haven Bookstore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .wireframe {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            border: 2px solid #333;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            border: 2px solid #666;
+            padding: 20px;
+            background-color: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo-placeholder {
+            width: 60px;
+            height: 60px;
+            border: 2px dashed #999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            color: #666;
+        }
+        .nav-menu {
+            border: 2px solid #999;
+            padding: 15px 30px;
+            font-size: 12px;
+            background-color: #f0f0f0;
+        }
+        .page-title {
+            border: 2px solid #666;
+            padding: 25px;
+            margin: 20px;
+            text-align: center;
+            background-color: #e8e8e8;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .gallery-grid {
+            padding: 30px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .gallery-item {
+            border: 2px dashed #999;
+            padding: 80px 20px;
+            background-color: #f5f5f5;
+            text-align: center;
+            font-size: 11px;
+            color: #666;
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .footer {
+            border: 2px solid #666;
+            padding: 30px;
+            background-color: #e0e0e0;
+            font-size: 12px;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .footer-column {
+            flex: 1;
+            border: 1px solid #ccc;
+            padding: 15px;
+            background-color: #fff;
+            color: #888;
+        }
+        .text-placeholder {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 15px 0;
+            background-color: #fff;
+            font-size: 12px;
+            color: #888;
+        }
+        .label {
+            font-size: 10px;
+            color: #666;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>DESKTOP WIREFRAME: GALLERY PAGE</h1>
+    
+    <div class="wireframe">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo-section">
+                <div class="logo-placeholder">
+                    LOGO
+                </div>
+                <div>
+                    <div class="label">Company Name</div>
+                    Book Haven Bookstore
+                </div>
+            </div>
+            <div class="nav-menu">
+                <div class="label">Navigation Menu</div>
+                Home | Gallery | About Us | Contact
+            </div>
+        </div>
+
+        <!-- Page Title -->
+        <div class="page-title">
+            <div class="label">Page Heading</div>
+            Our Collection
+        </div>
+
+        <!-- Gallery Grid (3x3) -->
+        <div class="gallery-grid">
+            <div class="label" style="grid-column: 1 / -1;">Gallery Grid - 3 Rows × 3 Columns</div>
+            
+            <div class="gallery-item">
+                <div>Image 1</div>
+                <div style="margin-top: 10px;">
+                    <strong>Brie Mine 4Ever</strong><br>
+                    Book for Cheese Lovers
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div>Image 2</div>
+                <div style="margin-top: 10px;">
+                    <strong>Glory Riders</strong><br>
+                    Book About Bikers
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div>Image 3</div>
+                <div style="margin-top: 10px;">
+                    <strong>Sorcerer's Shadowed Chronicles</strong><br>
+                    Fantasy Book
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div>Image 4</div>
+                <div style="margin-top: 10px;">
+                    <strong>Ball</strong><br>
+                    Pickleball Magazine
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div>Image 5</div>
+                <div style="margin-top: 10px;">
+                    <strong>Travel</strong><br>
+                    Travel Magazine
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div>Image 6</div>
+                <div style="margin-top: 10px;">
+                    <strong>Eat.</strong><br>
+                    Foodie Magazine
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div>Image 7</div>
+                <div style="margin-top: 10px;">
+                    <strong>Canvas Tote</strong><br>
+                    "All I Do Is Read" Bag
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div>Image 8</div>
+                <div style="margin-top: 10px;">
+                    <strong>Notebook</strong><br>
+                    Book Haven Bookstore
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <div>Image 9</div>
+                <div style="margin-top: 10px;">
+                    <strong>Sticker Set</strong><br>
+                    Reading Promotion Pack
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="label">Footer</div>
+            <div class="footer-content">
+                <div class="footer-column">
+                    <strong>Contact Info</strong><br>
+                    Address<br>
+                    Phone<br>
+                    Email
+                </div>
+                <div class="footer-column">
+                    <strong>Hours</strong><br>
+                    Mon-Fri: 9am-8pm<br>
+                    Sat: 10am-6pm<br>
+                    Sun: 11am-5pm
+                </div>
+                <div class="footer-column">
+                    <strong>Follow Us</strong><br>
+                    Social Media Icons<br>
+                    (Facebook, Instagram, Twitter)
+                </div>
+            </div>
+            <div class="text-placeholder" style="text-align: center; margin-top: 15px;">
+                © 2024 Book Haven Bookstore. All Rights Reserved.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
